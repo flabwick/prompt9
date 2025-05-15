@@ -1,0 +1,14 @@
+.tab {
+  display: inline-block;
+  padding: 0 20px;
+  height: 100%;
+  line-height: 48px;
+  cursor: pointer;
+  user-select: none;
+  border-bottom: 2px solid transparent;
+  transition: background 0.2s, border-bottom 0.2s;
+}
+.tab-active {
+  background: #fff;
+  border-bottom: 2px solid #2196f3;
+}

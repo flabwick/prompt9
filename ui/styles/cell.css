@@ -1,0 +1,7 @@
+.cell-editor {
+  font-family: monospace;
+  background: #f9fafc;
+  padding: 16px;
+  border-radius: 8px;
+  min-height: 80px;
+}

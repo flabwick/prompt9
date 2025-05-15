@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f5f6fa;
+  color: #222;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+#app-root {
+  display: flex;
+  height: 100vh;
+}
+#sidebar {
+  width: 240px;
+  min-width: 180px;
+  background: #fff;
+  border-right: 1px solid #e3e3e3;
+  overflow-y: auto;
+}
+#main-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+#tab-bar {
+  height: 48px;
+  border-bottom: 1px solid #e3e3e3;
+  display: flex;
+  align-items: center;
+  background: #fafbfc;
+  overflow-x: auto;
+  min-width: 0;
+}
+#main-panel {
+  flex: 1;
+  overflow-y: auto;
+  background: #f8f8fa;
+}
